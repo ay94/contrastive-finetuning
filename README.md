@@ -165,6 +165,22 @@ contrastive-finetuning/
 └── pyproject.toml
 ```
 
+## Testing
+
+```bash
+pip install pytest
+pytest tests/
+```
+
+Four test modules covering core library components:
+
+| Module | What it tests |
+|---|---|
+| `test_data_generator.py` | Pair generation — positive pairs, contrastive dataset structure, label correctness, sampling limits |
+| `test_train_config.py` | `TrainingConfig` — init, save, and load from hashed directory |
+| `test_embedding_extractor.py` | Embedding extraction workflow |
+| `test_trainer.py` | Training workflow |
+
 ## Output structure
 
 ```
