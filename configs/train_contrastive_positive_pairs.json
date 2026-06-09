@@ -3,6 +3,7 @@
   "pairing_strategy": "positive_contrastive",
   "loss": "contrastive",
   "num_samples": null,
+  "_num_samples_note": "null = exhaustive pairing (all combinations). Set to an integer to cap and use stratified sampling instead.",
   "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
   "num_train_epochs": 1,
   "per_device_train_batch_size": 32,
