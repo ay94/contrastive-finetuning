@@ -96,7 +96,7 @@ python scripts/run_pipeline.py --base-dir ~/my-experiments
 
 ### Step by step (notebooks)
 
-Notebooks `00` through `06` in `notebooks/` walk through each stage individually. They are the primary interface for iterative experimentation — adjusting hyperparameters, inspecting intermediate outputs, and re-running individual stages.
+Notebooks `00` through `05` in `notebooks/` walk through each pipeline stage individually. They are the primary interface for iterative experimentation — adjusting hyperparameters, inspecting intermediate outputs, and re-running individual stages. Notebook `06` is a utility for consolidating data splits and is not part of the main pipeline.
 
 ### On Colab
 
