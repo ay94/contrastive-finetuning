@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Data and experiment outputs (kept local)
+contrastive-data/
+contrastive-experiment/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

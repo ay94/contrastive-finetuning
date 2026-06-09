@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "contrastive-finetuning"
+version = "0.1.0"
+description = "Fine-tuning sentence transformers using contrastive learning, with an evaluation and dashboard pipeline"
+authors = [{ name = "Ahmed Younes" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "umap-learn",
+    "sentence_transformers",
+    "scikit-learn",
+    "datasets",
+    "plotly",
+    "accelerate",
+    "streamlit",
+    "ipython",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
