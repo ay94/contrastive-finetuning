@@ -120,6 +120,27 @@ Or after a full pipeline run:
 streamlit run dashboard/Load.py
 ```
 
+### Dashboard screenshots
+
+<table>
+<tr>
+<td><img src="assets/screenshots/01_choose_model.png" alt="Choose Model" width="360"/><br><sub>Choose Model</sub></td>
+<td><img src="assets/screenshots/02_classification_report.png" alt="Classification Report" width="360"/><br><sub>Classification Report</sub></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/03_average_similarity.png" alt="Average Similarity" width="360"/><br><sub>Average Similarity</sub></td>
+<td><img src="assets/screenshots/04_similarity_matrix.png" alt="Similarity Matrix" width="360"/><br><sub>Similarity Matrix</sub></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/05_semantic_map.png" alt="Semantic Map" width="360"/><br><sub>Semantic Map</sub></td>
+<td><img src="assets/screenshots/06_class_metrics.png" alt="Class Metrics" width="360"/><br><sub>Class Metrics</sub></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/07_unmasked_data.png" alt="Unmasked Data" width="360"/><br><sub>Unmasked Data</sub></td>
+<td></td>
+</tr>
+</table>
+
 ## Directory structure
 
 ```
