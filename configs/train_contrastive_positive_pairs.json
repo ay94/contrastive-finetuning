@@ -1,0 +1,18 @@
+{
+  "run_name": "contrastive-positive-pairs-fix_samples",
+  "pairing_strategy": "positive_contrastive",
+  "loss": "contrastive",
+  "num_samples": null,
+  "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "num_train_epochs": 1,
+  "per_device_train_batch_size": 32,
+  "per_device_eval_batch_size": 32,
+  "learning_rate": 2e-05,
+  "warmup_ratio": 0.1,
+  "bf16": false,
+  "eval_strategy": "steps",
+  "eval_steps": 100,
+  "save_strategy": "steps",
+  "save_steps": 100,
+  "logging_steps": 100
+}
